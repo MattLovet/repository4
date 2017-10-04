@@ -37,10 +37,10 @@ public static void main(String args[]) {
 	
 	while(health>0&&
 	ehealth>0){
-		int rng= (int)Math.random()*100+1;
-		int Pdmg= (int)Math.random()*5+2;
-		int Kdmg= (int)Math.random()*3+1;
-		int Edmg= (int)Math.random()*3+1;
+		int rng= (int)(Math.random()*100+1);
+		int Pdmg= (int)(Math.random()*5+2);
+		int Kdmg= (int)(Math.random()*3+1);
+		int Edmg= (int)(Math.random()*3+1);
 		System.out.println("What wil you do?\n");
 		System.out.println("Punch, dmg: 2-5, recoil: 2");
 		System.out.println("kick, dmg: 1-3");
